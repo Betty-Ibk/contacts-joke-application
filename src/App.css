@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-color: whitesmoke;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #110742;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.form-section h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #2B283A;
+}
+
+.form-section input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-section button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.form-section button:hover {
+  background-color: #0056b3;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.contact-card {
+  flex-basis: calc(25% - 20px);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center; 
+}
+
+.contact-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.contact-card h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #2B283A;
+  margin-bottom: 10px; 
+}
+
+.info-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px; 
+  gap: 6px; 
+}
+
+.info-group img {
+  height: 16px;
+  width: 16px; /* Ensure icons are square */
+}
+
+.info-group p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #2B283A;
+}
+
+.contact-card button {
+  padding: 8px 16px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 15px; /* Space above the delete button */
+}
+
+.contact-card button:hover {
+  background-color: #cc0000;
+}
+
+.jokes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.joke-card {
+  flex-basis: calc(25% - 20px);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center; 
+}
+
+.joke-card .setup {
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  color: #2B283A;
+}
+
+.joke-card p {
+  margin: 0;
+  color: #2B283A;
+}
+
+.joke-card button {
+  padding: 8px 16px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 15px; /* Space above the delete button */
+}
+
+.joke-card button:hover {
+  background-color: #cc0000;
+}
