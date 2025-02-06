@@ -4,33 +4,39 @@ import './App.css';
 import Contact from './Contact';
 import Joke from './joke';
 
+// Import images
+import catImage from './images/cat.jfif';
+import dogImage from './images/dog.jfif';
+import lionImage from './images/lion drummer.jfif';
+import pumpkinImage from './images/cat-png-40358.png';
+
 function App() {
   // State for managing my contacts
   let [contacts, setContacts] = useState([
     {
       id: 1,
-      img: "src\images\cat.jfif",
+      img: catImage,
       name: "Mr. Whiskerson",
       phone: "(212) 555-2344",
       email: "mr.whiskaz@catnap.meow",
     },
     {
       id: 2,
-      img: "src\images\dog.jfif",
+      img: dogImage,
       name: "Mr. Fluffykins",
       phone: "(212) 555-23456",
       email: "mr.fluff@dog.meow",
     },
     {
       id: 3,
-      img: "src\images\lion drummer.jfif",
+      img: lionImage,
       name: "Mr. Felix",
       phone: "(212) 555-4564",
       email: "kingdrummer@hotmail.meow",
     },
     {
       id: 4,
-      img: "src\images\cat-png-40358.png",
+      img: pumpkinImage,
       name: "Pumpkin",
       phone: "(212) 7894 6784",
       email: "pumpkin@scrimba.meow",
