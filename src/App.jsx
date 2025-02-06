@@ -9,28 +9,28 @@ function App() {
   let [contacts, setContacts] = useState([
     {
       id: 1,
-      img: "src/images/cat.jfif",
+      img: "src\images\cat.jfif",
       name: "Mr. Whiskerson",
       phone: "(212) 555-2344",
       email: "mr.whiskaz@catnap.meow",
     },
     {
       id: 2,
-      img: "src/images/dog.jfif",
+      img: "src\images\dog.jfif",
       name: "Mr. Fluffykins",
       phone: "(212) 555-23456",
       email: "mr.fluff@dog.meow",
     },
     {
       id: 3,
-      img: "src/images/lion drummer.jfif",
+      img: "src\images\lion drummer.jfif",
       name: "Mr. Felix",
       phone: "(212) 555-4564",
       email: "kingdrummer@hotmail.meow",
     },
     {
       id: 4,
-      img: "src/images/cat-png-40358.png",
+      img: "src\images\cat-png-40358.png",
       name: "Pumpkin",
       phone: "(212) 7894 6784",
       email: "pumpkin@scrimba.meow",

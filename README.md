@@ -1,8 +1,12 @@
-# React + Vite
+# Contact and Jokes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app to manage contacts and display jokes. This app allows users to add, view, and delete contacts and jokes dynamically.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add New Contacts:** Users can add new contacts with a name, phone number, email, and image URL.
+- **Add New Jokes:** Users can add new jokes with a setup and punchline.
+- **Delete Contacts/Jokes:** Users can delete contacts or jokes they no longer want.
+- **Responsive Design:** The app is fully responsive and works on all screen sizes.
+
+link: https://contacts-joke-application.vercel.app/
