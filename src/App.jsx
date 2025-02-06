@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Contact from './Contact';
-import Joke from './Joke';
+import Joke from './joke';
 
 function App() {
   // State for managing my contacts
